@@ -28,8 +28,17 @@
 
   button {
     height: 8vh;
+    overflow: hidden;
     padding: 1rem;
     background-color: #0cd8ef;
     border-radius: 2rem;
+    border: none;
+    outline: none;
+  }
+  button:active {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #0cd8ef58;
   }
 }

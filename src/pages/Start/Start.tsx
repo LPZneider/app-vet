@@ -1,9 +1,7 @@
 import React from "react";
 import "./Start.scss";
 
-export type StartProps = {};
-
-const Start: React.FC<StartProps> = ({}) => {
+const Start: React.FC = () => {
   return (
     <div className="start">
       <h1>BIENVENIDO</h1>
